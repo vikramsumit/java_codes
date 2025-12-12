@@ -1,0 +1,196 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "oops3",
+            "request": "launch",
+            "mainClass": "oops3",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "oops1",
+            "request": "launch",
+            "mainClass": "oops1",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "DandC2",
+            "request": "launch",
+            "mainClass": "DandC2",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "DandC",
+            "request": "launch",
+            "mainClass": "DandC",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "Recursion2",
+            "request": "launch",
+            "mainClass": "Recursion2",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "newrec",
+            "request": "launch",
+            "mainClass": "newrec",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeNumber",
+            "request": "launch",
+            "mainClass": "PalindromeNumber",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "oops2",
+            "request": "launch",
+            "mainClass": "oops2",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BitMnipulation1",
+            "request": "launch",
+            "mainClass": "BitMnipulation1",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "Bitmanipulation",
+            "request": "launch",
+            "mainClass": "Bitmanipulation",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "OOPS",
+            "request": "launch",
+            "mainClass": "OOPS",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "functions",
+            "request": "launch",
+            "mainClass": "functions",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "javaques1",
+            "request": "launch",
+            "mainClass": "javaques1",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "javaques2",
+            "request": "launch",
+            "mainClass": "javaques2",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "javaques3",
+            "request": "launch",
+            "mainClass": "javaques3",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "javaques4",
+            "request": "launch",
+            "mainClass": "javaques4",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "parametersfunctions",
+            "request": "launch",
+            "mainClass": "parametersfunctions",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "pattern1",
+            "request": "launch",
+            "mainClass": "pattern1",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "pattern2",
+            "request": "launch",
+            "mainClass": "pattern2",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "product",
+            "request": "launch",
+            "mainClass": "product",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "spiralmatrix",
+            "request": "launch",
+            "mainClass": "spiralmatrix",
+            "projectName": "java questions_b3b0e925"
+        },
+        {
+            "type": "java",
+            "name": "swap",
+            "request": "launch",
+            "mainClass": "swap",
+            "projectName": "java questions_b3b0e925"
+        }
+    ]
+}
