@@ -1,8 +1,11 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class javabasics4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        String line = sc.nextLine();
+        System.out.println(line);
 
         do {
             System.out.println("enter your required no:");
@@ -15,5 +18,6 @@ public class javabasics4 {
         } while (true);
 
         System.out.println("Ab ruk ja bhai");
+
     }
 }
