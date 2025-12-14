@@ -19,7 +19,7 @@ public class maxsubarray {
             }
             // System.out.println();
         }
-        System.out.println("maxsubarrays dum are:" + maxSum);
+        System.out.println("maxsubarrays sum are:" + maxSum);
     }
     public static void main(String[] args) {
         // int numbers[] = {2,3,25,5,7,33,77,44,88,89,96};
