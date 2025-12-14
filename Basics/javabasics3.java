@@ -1,3 +1,5 @@
+// For Loop
+
 import java.util.*;
 
 public class javabasics3 {
@@ -6,9 +8,9 @@ public class javabasics3 {
             if (i == 53) {
                 break;
             }
-            System.out.println( i );
+            System.out.println(i);
         }
 
-        System.out.println(" now i am out of this loop" + " ");
+        System.out.println("Now i am out of this loop" + " ");
     }
 }
