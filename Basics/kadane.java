@@ -18,22 +18,22 @@ public class kadane {
         // System.out.println(Integer.MIN_VALUE);
     }
 
-    public static void max(int numbers[]){
+    public static void max(int numbers[]) {
         int max = numbers[0];
 
-        for (int i = 0; i < numbers.length; i++){
-            if (numbers[i] > max){
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] > max) {
                 max = numbers[i];
             }
         }
         System.out.println(max);
     }
 
-    public static void min(int numbers[]){
+    public static void min(int numbers[]) {
         int min = numbers[0];
 
-        for (int i = 0; i < numbers.length; i++){
-            if (numbers[i] < min){
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] < min) {
                 min = numbers[i];
             }
         }
