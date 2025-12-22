@@ -23,8 +23,8 @@ public class maxsubarray {
     }
     public static void main(String[] args) {
         // int numbers[] = {2,3,25,5,7,33,77,44,88,89,96};
-        // int numbers[] = {2,3,6};
-        int numbers[] = {-2,3,6,-5,-3};
+        int numbers[] = {2,3,6};
+        // int numbers[] = {-2,3,6,-5,-3};
         maxsubarraysum(numbers);
     }
 }

@@ -8,7 +8,7 @@ public class Launch2 {
         System.out.println(500 * 5);
         System.out.println(500 % 3);
         System.out.println(500 % 7);
-        System.out.println(500 % 700);
+        System.out.println(500 % 400);
     }
 }
 
