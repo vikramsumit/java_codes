@@ -1,3 +1,5 @@
+// Getter and Setter
+
 import java.util.*;
 
 public class parameter1 {
@@ -32,8 +34,17 @@ public class parameter1 {
 
         parameter1 student = new parameter1(Name, RollNo);
 
+
+        System.out.println("--------------Value of Getter--------------");
+        System.out.println("Student Name: " + student.getName());
+        System.out.println("Roll Number: " + student.getRollNo());
+        
+        
+        student.setName("Bruce Wayne");
+        student.setRollNo(101);
+        
+        System.out.println("------------Value after Setter-------------");
         System.out.println("Student Name: " + student.getName());
         System.out.println("Roll Number: " + student.getRollNo());
     }
 }
-
