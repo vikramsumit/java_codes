@@ -42,10 +42,12 @@ public class palindrome {
     }
 
     public static void main(String[] args) {
-        // String str = "racecar";
-        String str = "raceca";
+        String str = "racecar";
+        // String str = "raceca";
         System.out.println(isPalindrome(str));
-        String path = "WNEENESENNN";
+        String str2 = "madam";
+        System.out.println(isPalindrome(str2));
+        String path = "WNEENESENNNSENNSSW";
         // String path = "SN";
         System.out.println(getshortestpath(path));
 
