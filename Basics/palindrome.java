@@ -31,7 +31,7 @@ public class palindrome {
                 x++;
             }
 
-            // west
+            west
             if (dir == 'W') {
                 x--;
             }
