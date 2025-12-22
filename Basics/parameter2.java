@@ -1,3 +1,5 @@
+//Getter Only
+
 import java.util.*;
 
 class meme {

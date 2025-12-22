@@ -5,7 +5,7 @@ public class strings {
         for(int i=0; i<str.length(); i++) {
             System.out.print(str.charAt(i) + " ");
         }
-        System.out.println();
+        // System.out.println();
     }
     public static void main(String[] args) {
         // char arr[] = { 'a' , 'b' ,'c','d','e'};
@@ -26,8 +26,8 @@ public class strings {
         String firstName = "Sumit";
         String lastName = "Vikram";
         String otherName = "student";
-        String fullName = firstName + " " + lastName + " " + otherName;
-        // System.out.println(fullName + "is this");
+        String fullName = firstName + " " + lastName + " is a "+ " " + otherName;
+        System.out.println(fullName);
         System.out.println(fullName.charAt(9));
         printletters(fullName);
         
