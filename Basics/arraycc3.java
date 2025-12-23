@@ -1,23 +1,25 @@
-// import java.util.*;
 public class arraycc3 {
-    public static int linearsearch(int numbers[], int key) {
-        for (int i = 0; i <= numbers.length; i++) {
+    // Linear search method
+    public static int linearSearch(int[] numbers, int key) {
+        for (int i = 0; i < numbers.length; i++) { // fixed condition
             if (numbers[i] == key) {
-                return i;
+                return i; // return index if found
             }
         }
-        return -5;
+        return -1; // standard value for "not found"
     }
 
     public static void main(String[] args) {
-        int numbers[] = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 888 };
-        int key = 188;
 
-        int index = linearsearch(numbers, key);
-        if (index == -5) {
-            System.out.println("not found");
+        int[] numbers = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 888 };
+        int key = 100;
+
+        int index = linearSearch(numbers, key);
+
+        if (index == -1) {
+            System.out.println("Key not found in the array.");
         } else {
-            System.out.println("key is at index: " + index);
+            System.out.println("Key found at index: " + index);
         }
     }
 }

@@ -23,7 +23,7 @@ public class arraycc4 {
 
     public static void main(String[] args) {
         String[] fruits = {"raja", "khaja", "bamd", "baja"};
-        String key = "raja";
+        String key = "baja";
 
         int index = linearSearch(fruits, key);
         if (index == -1) {

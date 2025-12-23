@@ -13,7 +13,7 @@ public class Arraycc1 {
     public static void main(String[] args) {
         int numbers[] = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 888 };
         // String fruits[] = {"raja" , "khaja" , "bamd" , "baja"};
-        int key = 118;
+        int key = 18;
 
         int index = linearsearch(numbers, key);
         if (index == 0) {
