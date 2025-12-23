@@ -2,9 +2,10 @@
 
 public class ArraysCC {
     public static void update(int marks[], int nonChangable){
-        nonChangable = 51;
+        // nonChangable = 51;
         for(int i=0; i<marks.length; i++){
             marks[i] = marks[i] + 1;
+            System.out.print(marks[i]+ " ");
         }
     }
 
@@ -20,12 +21,12 @@ public class ArraysCC {
         int marks[] = {96,76,77,99};
         int nonChangable = 41;
         update(marks,nonChangable);
-        System.out.println(nonChangable);
+        // System.out.println(nonChangable);
         //print formarks
-        for(int i=0; i<marks.length; i++){
-            System.out.print(marks[i]+ " ");
-        }
+        // for(int i=0; i<marks.length; i++){
+        //     System.out.print(marks[i]+ " ");
+        // }
 
-        System.out.println();
+        // System.out.println();
     }
 }
