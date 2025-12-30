@@ -1,7 +1,6 @@
 //power question
 //tiling pbllm
 
-
 public class Recursion2 {
     public static int optimizedPower(int a , int n) {
         if(n == 0) {
