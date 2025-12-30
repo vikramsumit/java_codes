@@ -1,6 +1,6 @@
 // import java.util.*;
 
-public class BitMnipulation1 {
+public class bitmanipulation1 {
     public static void oddoreven(int n){
         int bitMask = 1;
         if((n & bitMask) == 0) {

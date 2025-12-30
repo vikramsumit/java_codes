@@ -31,10 +31,10 @@ public class Main {
         PalindromeChecker checker = new PalindromeChecker(userInput);
 
         if (checker.isPalindrome()) {
-            System.out.println(userInput + " haan hai.");
+            System.out.println(userInput + " haan palindrome hai.");
         } 
         else {
-            System.out.println(userInput + " nhi hai be.");
+            System.out.println(userInput + " nhi hai palindrome be.");
         }
     }
 }
