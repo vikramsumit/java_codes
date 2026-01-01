@@ -26,7 +26,7 @@ public class kadane {
                 max = numbers[i];
             }
         }
-        System.out.println(max);
+        System.out.println("Largest Num in array is: " + max);
     }
 
     public static void min(int numbers[]) {
@@ -38,16 +38,16 @@ public class kadane {
             }
         }
 
-        System.out.println(min);
+        System.out.println("Smallest Num in array is: " + min);
     }
 
     public static void main(String[] args) {
         int numbers[] = { -2, -3, 4, -1, 88, -2, 1, 5, -3, -87 };
 
-        // min(numbers);
+        min(numbers);
 
         kadanes(numbers);
 
-        // max(numbers);
+        max(numbers);
     }
 }
