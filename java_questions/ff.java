@@ -1,3 +1,9 @@
+// Friend Function — Definition
+
+// A friend function is a function that is not a member of a class, but it is allowed to access the private and protected members of that class.
+
+// 👉 Friend functions are mainly used in C++ (they do not exist in Java).
+
 import java.util.*;
 
 // Helper class that accesses another class object
@@ -21,6 +27,6 @@ public class ff {
 
     public static void main(String[] args) {
         ff obj = new ff(); // Create object of ff
-        obj.myMethod();   // Call method
+        obj.myMethod(); // Call method
     }
 }

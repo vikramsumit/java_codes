@@ -1,3 +1,5 @@
+//FACTORIAL, COMBINATION, AND PERMUTATION
+
 import java.util.Scanner;
 
 public class factorial {

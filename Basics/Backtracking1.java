@@ -35,7 +35,7 @@ public class Backtracking1 {
         // Recursion
         arr[i] = val;
         changeArr(arr, i + 1, val + 1);
-         arr[i] = arr[i] - 2;
+        arr[i] = arr[i] - 2;
 
         // Backtrack by resetting the value at index i
         // arr[i] = 0;

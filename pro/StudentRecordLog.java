@@ -8,9 +8,9 @@ class Student {
     double cgpa;
 
     public Student(String fullName, String gender, String dob, String contactNumber, String email, String address,
-                   String nationality, String bloodGroup, String rollNumber, String course,
-                   String specialization, String admissionCategory, String fatherName,
-                   String motherName, String hostelDetails, double cgpa) {
+            String nationality, String bloodGroup, String rollNumber, String course,
+            String specialization, String admissionCategory, String fatherName,
+            String motherName, String hostelDetails, double cgpa) {
         this.fullName = fullName;
         this.gender = gender;
         this.dob = dob;
@@ -44,8 +44,10 @@ public class StudentRecordLog {
             String input = sc.nextLine();
             try {
                 n = Integer.parseInt(input);
-                if (n > 0) break;
-                else System.out.println("Please enter a positive integer.");
+                if (n > 0)
+                    break;
+                else
+                    System.out.println("Please enter a positive integer.");
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input. Please enter a numeric value.");
             }
@@ -112,22 +114,23 @@ public class StudentRecordLog {
             }
 
             students.add(new Student(fullName, gender, dob, contactNumber, email, address, nationality,
-                                     bloodGroup, rollNumber, course, specialization, admissionCategory,
-                                     fatherName, motherName, hostelDetails, cgpa));
+                    bloodGroup, rollNumber, course, specialization, admissionCategory,
+                    fatherName, motherName, hostelDetails, cgpa));
         }
 
         System.out.println("\nStudent Details:");
         System.out.printf("%-20s %-8s %-12s %-15s %-25s %-15s %-12s %-10s %-10s %-12s %-12s %-15s %-15s %-15s %-10s\n",
-                          "Full Name", "Gender", "DOB", "Contact", "Email", "Address",
-                          "Nationality", "Blood", "Roll No.", "Course", "Spec.",
-                          "Adm. Cat.", "Father", "Mother", "CGPA");
+                "Full Name", "Gender", "DOB", "Contact", "Email", "Address",
+                "Nationality", "Blood", "Roll No.", "Course", "Spec.",
+                "Adm. Cat.", "Father", "Mother", "CGPA");
 
         for (Student student : students) {
-            System.out.printf("%-20s %-8s %-12s %-15s %-25s %-15s %-12s %-10s %-10s %-12s %-12s %-15s %-15s %-15s %-10.2f\n",
-                              student.fullName, student.gender, student.dob, student.contactNumber, student.email,
-                              student.address, student.nationality, student.bloodGroup, student.rollNumber,
-                              student.course, student.specialization, student.admissionCategory,
-                              student.fatherName, student.motherName, student.cgpa);
+            System.out.printf(
+                    "%-20s %-8s %-12s %-15s %-25s %-15s %-12s %-10s %-10s %-12s %-12s %-15s %-15s %-15s %-10.2f\n",
+                    student.fullName, student.gender, student.dob, student.contactNumber, student.email,
+                    student.address, student.nationality, student.bloodGroup, student.rollNumber,
+                    student.course, student.specialization, student.admissionCategory,
+                    student.fatherName, student.motherName, student.cgpa);
         }
 
         sc.close();
