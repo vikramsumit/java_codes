@@ -8,7 +8,6 @@ public class grid {
             return 0;
         }
 
-
         int w1 = gridways(i + 1, j, n, m);
         int w2 = gridways(i, j + 1, n, m);
         return w1 + w2;
