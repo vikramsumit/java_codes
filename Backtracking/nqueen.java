@@ -29,7 +29,7 @@ public class nqueen {
     // private static int count = 0;
 
     public static void main(String[] args) {
-        int n = 4;
+        int n = 2;
         char board[][] = new char[n][n];
 
         // initialize

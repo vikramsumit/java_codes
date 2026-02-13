@@ -14,7 +14,7 @@ public class permutation {
         }
     }
     public static void main(String[] args) {
-        String str = "spdfpkl";
+        String str = "spdf";
         findpermutation(str, "");
     }
 }

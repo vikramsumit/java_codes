@@ -19,7 +19,7 @@ public class q1 {
         System.out.println();
     }
     public static void main(String[] args) {
-        int arr[] = new int[41];
+        int arr[] = new int[8];
         // int[] arr = {1,2,3,4,5,6,7,8};
         changeArr(arr, 0, 1);
         printArr(arr);
