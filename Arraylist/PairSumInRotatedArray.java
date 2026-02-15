@@ -2,18 +2,19 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class PairSumInRotatedArray {
-    // Method to find pairs that sum up to the target value in a sorted and rotated array
+    // Method to find pairs that sum up to the target value in a sorted and rotated
+    // array
     public static ArrayList<ArrayList<Integer>> pairsum1(ArrayList<Integer> list, int target) {
         ArrayList<ArrayList<Integer>> allPairs = new ArrayList<>();
 
         int n = list.size();
-        
+
         // Find the pivot point
         int pivot = findPivot(list, n);
-        
+
         // Set the left and right pointers
         int left = (pivot + 1) % n; // Index of the smallest element
-        int right = pivot;          // Index of the largest element
+        int right = pivot; // Index of the largest element
 
         // Using the two-pointer technique
         while (left != right) {
@@ -45,7 +46,7 @@ public class PairSumInRotatedArray {
             }
         }
 
-        return allPairs;  // Return the list of all pairs
+        return allPairs; // Return the list of all pairs
     }
 
     // Method to find the pivot point in a rotated sorted array
@@ -55,7 +56,7 @@ public class PairSumInRotatedArray {
                 return i;
             }
         }
-        return n - 1;  // If no pivot, the array is not rotated
+        return n - 1; // If no pivot, the array is not rotated
     }
 
     public static void main(String[] args) {

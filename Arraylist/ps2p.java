@@ -1,9 +1,8 @@
-// two pointer approach arraylist should be sorted
+// two pointer approach:-> arraylist should be sorted
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
-public class pairsum1i {
+public class ps2p {
     public static ArrayList<ArrayList<Integer>> pairsum1(ArrayList<Integer> list, int target) {
         ArrayList<ArrayList<Integer>> allPairs = new ArrayList<>();
 
@@ -31,12 +30,14 @@ public class pairsum1i {
             }
         }
 
-        return allPairs;  // Return the list of all pairs
+        return allPairs; // Return the list of all pairs
     }
 
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-        Collections.addAll(list, 1, 2, 3, 4, 5, 6, 7, 8);
+        // ArrayList<Integer> list = new ArrayList<>();
+        // Collections.addAll(list, 1, 2, 3, 4, 5, 6, 7, 8);
+
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8));
 
         ArrayList<ArrayList<Integer>> result = pairsum1(list, 8);
 
@@ -50,4 +51,3 @@ public class pairsum1i {
         }
     }
 }
-
