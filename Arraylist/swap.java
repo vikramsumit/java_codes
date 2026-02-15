@@ -1,19 +1,25 @@
+import java.util.ArrayList;
+
 public class swap {
-    public static void swap(int a, int b, int c){
-        int temp = a;
-        a = b;
-        b = c;
-        c = temp;
-
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-        System.out.println("c = " + c);
+    public static void swap (ArrayList<Integer> list, int idx1, int idx2) {
+        int temp = list.get(idx1);
+        list.set(idx1 , list.get(idx2));
+        list.set(idx2, temp);
     }
-    public static void main(String[] args) {
-        int a = 534;
-        int b = 254;
-        int c = 354;
+    public static void main(String[] args){
+        ArrayList<Integer> list = new ArrayList<>();
 
-        swap(a, b, c);
+        list.add(44);
+        list.add(14);
+        list.add(42);
+        list.add(47);
+        list.add(66);
+        list.add(54);
+
+        int idx1 = 1; int idx2 = 4;
+
+        System.out.println(list);
+        swap(list, idx1, idx2);
+        System.out.println(list);
     }
 }
