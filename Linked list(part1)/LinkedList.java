@@ -49,7 +49,6 @@ public class LinkedList {
         Node temp = head;
         if (head == null) {
             System.out.println("ll is empty");
-            System.out.println("rom rom bhaiyo system khali hai ");
             return;
         }
         while (temp != null) {

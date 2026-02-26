@@ -27,7 +27,7 @@ public class pairsum1 {
         // Collections.addAll(list, 1,2,3,4,5,6,7,8);
         Collections.addAll(list, 41, 52, 243, 54, 55, 546, 657, 8);
 
-        ArrayList<ArrayList<Integer>> result = pairsum1(list, 8);
+        ArrayList<ArrayList<Integer>> result = pairsum1(list, 93);
         // System.out.println(pairsum1(list, 8));
 
         if (!result.isEmpty()) {
