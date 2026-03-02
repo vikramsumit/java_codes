@@ -90,6 +90,52 @@ public class ll1 {
         size++;
     }
 
+    public int removeFirst() {
+
+        // for two special cases
+        if (size == 0) {
+            System.out.println("ll is empty");
+            return Integer.MIN_VALUE;
+        } else if (size == 1) {
+            int val = head.data;
+            size = 0;
+            head = tail = null;
+            return val;
+        }
+
+        int val = head.data;
+        head = head.next;
+        size--;
+        return val;
+    }
+
+    public int removeLast() {
+
+        // for two special cases
+        if (size == 0) {
+            System.out.println("ll is empty");
+            return Integer.MIN_VALUE;
+        } else if (size == 1) {
+            // int val = head.data;
+            int val = tail.data;
+            size = 0;
+            head = tail = null;
+            return val;
+        }
+
+        // prev: i = size -2;
+        Node prev = head;
+        for (int i = 0; i < size - 2; i++) {
+            prev = prev.next;
+        }
+
+        int val = prev.next.data;
+        prev.next = null;
+        tail = prev;
+        size--;
+        return val;
+    }
+
     public static void main(String[] args) {
         ll1 ll = new ll1();
 
@@ -107,9 +153,13 @@ public class ll1 {
 
         ll.print();
 
-        ll.add(0,85);
+        ll.add(0, 85);
         ll.add(5, 90);
         ll.add(6, 89);
+
+        ll.print();
+
+        ll.removeFirst()
 
         ll.print();
     }
