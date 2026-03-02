@@ -52,17 +52,34 @@ public class ll1 {
         tail = newNode;
     }
 
-    public void print() {
+    // public void print() {
+    // Node temp = head;
+    // if (head == null) {
+    // System.out.println("ll is empty");
+    // return;
+    // }
+    // while (temp != null) {
+    // System.out.print(temp.data + "->");
+    // temp = temp.next;
+    // }
+    // System.out.println("null");
+    // }
+
+    public void print(String message) {
+        System.out.println(message);
+
         Node temp = head;
         if (head == null) {
-            System.out.println("ll is empty");
+            System.out.println("LL is empty");
             return;
         }
+
         while (temp != null) {
-            System.out.print(temp.data + "->");
+            System.out.print(temp.data + " -> ");
             temp = temp.next;
         }
         System.out.println("null");
+        System.out.println();
     }
 
     public void add(int idx, int data) {
@@ -136,6 +153,33 @@ public class ll1 {
         return val;
     }
 
+    public void deleteNthfromEnd(int n) {
+        // calculate size
+        int sz = 0;
+        Node temp = head;
+        while (temp != null) {
+            temp = temp.next;
+            sz++;
+
+            if (n == sz) {
+                head = head.next; // remove first
+                return;
+            }
+
+            // sz - n
+            int i = 1;
+            int iToFind = sz - n;
+            Node prev = head;
+            while (i < iToFind) {
+                prev = prev.next;
+                i++;
+            }
+
+            prev.next = prev.next.next;
+            return;
+        }
+    }
+
     public static void main(String[] args) {
         ll1 ll = new ll1();
 
@@ -144,22 +188,33 @@ public class ll1 {
         ll.addFirst(87);
         ll.addFirst(86);
 
-        ll.print();
+        ll.print("After adding elements at first:");
 
         ll.addLast(88);
         ll.addLast(87);
         ll.addLast(86);
         ll.addLast(85);
 
-        ll.print();
+        ll.print("After adding elements at last:");
 
         ll.add(0, 85);
         ll.add(5, 90);
         ll.add(6, 89);
 
+        ll.print("After adding elements at specific index:");
+
+        ll.removeFirst();
+        ll.print("After removing first element:");
+
         ll.print();
 
-        ll.removeFirst()
+        ll.removeLast();
+        ll.print("After removing last element:");
+
+        ll.print();
+
+        ll.deleteNthfromEnd(86);
+        ll.print("After deleting nth node from end:");
 
         ll.print();
     }
