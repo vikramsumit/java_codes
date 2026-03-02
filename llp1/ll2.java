@@ -101,6 +101,53 @@ public class ll2 {
         head = prev;
     }
 
+    // slow fast approach
+    public Node findMid(Node head) { // helper function for palindrome check
+        Node slow = head; // turtle
+        Node fast = head; // hare/rabbit
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next; // +1
+            fast = fast.next.next; // +2
+        }
+
+        return slow; // slow is my middle
+    }
+
+    public boolean checkPalindrome() {
+        if (head == null || head.next == null) {
+            return true;
+        }
+
+        // step 1 - find mid
+        Node midNode = findMid(head);
+
+        // step 2 - reverse 2ns half
+        Node prev = null;
+        Node curr = midNode;
+        Node next;
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        Node right = prev; // right half head
+        Node left = head;
+
+        // step3 - check right half and left half
+        while (right != null) {
+            if (left.data != right.data) {
+                return false;
+            }
+            left = left.next;
+            right = right.next;
+        }
+
+        return true;
+    }
+
     public static void main(String[] args) {
 
         ll2 ll = new ll2();
@@ -132,6 +179,8 @@ public class ll2 {
         } else {
             System.out.println("Recursive Search: Key found at index = " + recIndex);
         }
+
+        System.out.println("Is Palindrome: " + ll.checkPalindrome());
     }
 
 }
