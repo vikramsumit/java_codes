@@ -202,8 +202,8 @@ public class LinkedList {
 
     //slow fast approach
     public Node findMid(Node head) { //helper function for palindrome check
-        Node slow = head;
-        Node fast = head;
+        Node slow = head; // turtle
+        Node fast = head; // hare/rabbit
         
         while (fast != null && fast.next != null) {
             slow = slow.next; // +1
