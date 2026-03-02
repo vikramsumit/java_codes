@@ -1,5 +1,3 @@
-
-
 public class ll1 {
 
     public static class Node{
