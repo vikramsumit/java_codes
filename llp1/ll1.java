@@ -1,3 +1,14 @@
+/*
+ * Linked List Implementation Steps:
+
+ * 1. First, create the Node class to represent each node.
+ * 2. Implement addFirst() to insert elements at the beginning.
+ * 3. Implement addLast() to insert elements at the end.
+ * 4. Implement add(index, data) to insert at a specific position.
+ * 5. Implement removeFirst() and removeLast() for deletion.
+ * 6. Implement deleteNthFromEnd() to delete the nth node from the end.
+ * 7. Implement print() to display the linked list.
+ */
 
 public class ll1 {
 
@@ -188,6 +199,7 @@ public class ll1 {
         ll.addFirst(87);
         ll.addFirst(86);
 
+        System.out.println();
         ll.print("After adding elements at first:");
 
         ll.addLast(88);
@@ -206,16 +218,17 @@ public class ll1 {
         ll.removeFirst();
         ll.print("After removing first element:");
 
-        ll.print();
+        // ll.print();
 
         ll.removeLast();
         ll.print("After removing last element:");
 
-        ll.print();
+        // ll.print();
 
-        ll.deleteNthfromEnd(86);
+        // ll.deleteNthfromEnd();
+        ll.deleteNthfromEnd(1);
         ll.print("After deleting nth node from end:");
 
-        ll.print();
+        // ll.print();
     }
 }
