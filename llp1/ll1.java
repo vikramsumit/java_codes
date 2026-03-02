@@ -1,10 +1,11 @@
+
 public class ll1 {
 
-    public static class Node{
+    public static class Node {
         int data;
         Node next;
 
-        public Node(int data){
+        public Node(int data) {
             this.data = data;
             this.next = null;
         }
@@ -15,7 +16,7 @@ public class ll1 {
     public static int size;
 
     public void addFirst(int data) {
-    
+
         // create new node
         Node newNode = new Node(data);
 
@@ -33,13 +34,13 @@ public class ll1 {
         head = newNode;
     }
 
-    public void addLast(int data){
+    public void addLast(int data) {
 
         Node newNode = new Node(data);
 
         size++;
 
-        if(head == null) {
+        if (head == null) {
             head = tail = newNode;
             return;
         }
@@ -64,8 +65,33 @@ public class ll1 {
         System.out.println("null");
     }
 
-    public static void main(String[] args){
-        ll1 ll =new ll1();
+    public void add(int idx, int data) {
+
+        if (idx < 0 || idx > size) {
+            System.out.println("Invalid index");
+            return;
+        }
+
+        if (idx == 0) {
+            addFirst(data);
+            return;
+        }
+
+        Node newNode = new Node(data);
+        Node temp = head;
+
+        for (int i = 0; i < idx - 1; i++) {
+            temp = temp.next;
+        }
+
+        newNode.next = temp.next;
+        temp.next = newNode;
+
+        size++;
+    }
+
+    public static void main(String[] args) {
+        ll1 ll = new ll1();
 
         ll.addFirst(89);
         ll.addFirst(88);
@@ -78,6 +104,12 @@ public class ll1 {
         ll.addLast(87);
         ll.addLast(86);
         ll.addLast(85);
+
+        ll.print();
+
+        ll.add(0,85);
+        ll.add(5, 90);
+        ll.add(6, 89);
 
         ll.print();
     }
