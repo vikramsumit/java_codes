@@ -1,3 +1,16 @@
+/*
+ * Linked List Implementation Steps:
+
+ * 1. First, create the Node class to represent each node.
+ * 2. Implement addFirst() to insert elements at the beginning.
+ * 3. Implement print() to display the linked list.
+ * 4. Implement itrSearch() for iterative search.
+ * 5. Implement recSearch() for recursive search.
+ * 6. Implement reverse() to reverse the linked list.
+ * 7. Implement findMid() to find the middle node.
+ * 8. Implement checkPalindrome() to check if the list is palindrome.
+ */
+
 public class ll2 {
     public static class Node {
         int data;
