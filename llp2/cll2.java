@@ -69,8 +69,8 @@ public class cll2 {
 
         System.out.println(isCycle());
         
-        // removecycle();
-        
-        // System.out.println(isCycle());
+        removecycle();
+
+        System.out.println(isCycle());
     }
 }
