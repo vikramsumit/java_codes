@@ -13,7 +13,21 @@ public class cll2 {
     public static Node tail;
     // public static int size;
 
-public static void removeCycle() {
+    public static boolean isCycle() { // Floyd's CFA
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next; // +1
+            fast = fast.next.next; // +2
+            if (slow == fast) {
+                return true; // cycle exist
+            }
+        }
+        return false; // cycle doesnot exist
+    }
+
+    public static void removeCycle() {
         // detec₺cycle
         Node slow = head;
         Node fast = head;
