@@ -27,7 +27,7 @@ public class cll2 {
         return false; // cycle doesnot exist
     }
 
-    public static void removeCycle() {
+    public static void removecycle() {
         // detec₺cycle
         Node slow = head;
         Node fast = head;
@@ -63,8 +63,14 @@ public class cll2 {
         head.next = new Node(2);
         head.next.next = new Node(3);
         head.next.next.next = new Node(4);
-        head.next.next.next.next = head;
+        head.next.next.next.next = new Node(5);
+        head.next.next.next.next.next = new Node(6);
+        head.next.next.next.next.next.next = head.next.next;
 
         System.out.println(isCycle());
+        
+        // removecycle();
+        
+        // System.out.println(isCycle());
     }
 }
