@@ -22,6 +22,12 @@ public class jcfll {
         ll.addLast(0);
 
         System.out.println(ll);
+        
+        ll.removeFirst();
+        ll.removeLast();
+        
+        System.out.println(ll);
+
     }
     
 }
