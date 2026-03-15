@@ -51,13 +51,30 @@ public class dll {
             head = tail = null;
             size--;
             return val;
-            
+
         }
         int val = head.data;
         head = head.next;
         head.prev = null;
         size--;
         return val;
+    }
+
+    public void reverse() {
+        Node curr = head;
+        Node prev = null;
+        Node next;
+
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            curr.prev = next;
+
+            prev = curr;
+            curr = next;
+        }
+
+        head = prev;
     }
 
     public static void main(String[] args) {
@@ -69,8 +86,11 @@ public class dll {
         list.addFirst(5);
 
         list.print();
-        System.out.println(list.size);
+        // System.out.println(list.size);
 
-        
+        list.reverse();
+
+        list.print();
+
     }
 }
