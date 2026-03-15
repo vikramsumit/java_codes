@@ -66,7 +66,7 @@ public class dll {
         list.addFirst(3);
         list.addFirst(99);
         list.addFirst(8);
-        // list.addFirst(5);
+        list.addFirst(5);
 
         list.print();
         System.out.println(list.size);
