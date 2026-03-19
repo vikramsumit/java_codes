@@ -1,3 +1,5 @@
+//LinkedList implimentation
+
 public class stack2 {
 
     static class Node {
