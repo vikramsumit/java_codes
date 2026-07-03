@@ -1,3 +1,5 @@
+// Reverse a string using stack
+
 import java.util.Stack;
 
 public class stack5 {
