@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class bin1 {
+public class binary {
     static class Node {
         int data;
         Node left;
