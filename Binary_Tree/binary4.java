@@ -85,6 +85,7 @@ public class binary4 {
 
         // System.out.println("Diameter of the binary tree: " + diameter(root));
 
+        System.out.println("Height of the binary tree: " + diameter(root).height);
         System.out.println("Diameter of the binary tree: " + diameter(root).diameter);
         
     }
