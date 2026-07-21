@@ -30,8 +30,6 @@ public class binary {
         }
 
         public static void preOrder(Node root) {
-
-
             if (root == null) {
                 return;
             }
