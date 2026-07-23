@@ -1,5 +1,6 @@
 //in classes
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class heap2 {
@@ -18,7 +19,8 @@ public class heap2 {
         }
     }
     public static void main(String[] args) {
-        PriorityQueue<student> pq = new PriorityQueue<>();
+        // PriorityQueue<student> pq = new PriorityQueue<>();
+        PriorityQueue<student> pq = new PriorityQueue<>(Comparator.reverseOrder());
 
         pq.add(new student("A", 65));
         pq.add(new student("B", 52));
