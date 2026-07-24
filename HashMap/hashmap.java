@@ -42,7 +42,5 @@ public class hashmap {
             System.out.println("key=" +k+ ",value="+map.get(k));
         }
 
-
-
     }
 }
