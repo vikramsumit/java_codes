@@ -12,6 +12,8 @@ public class treemap {
         hm.put("India", 150);
         hm.put("China", 140);
         hm.put("US", 30);
+
+
         
     }
 }
