@@ -13,7 +13,8 @@ public class treemap {
         hm.put("China", 140);
         hm.put("US", 30);
 
-
+        System.out.println(tm);
+        System.out.println(hm);
         
     }
 }
