@@ -1,5 +1,6 @@
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 
 public class hashset2 {
     public static void main(String[] args) {
@@ -10,9 +11,25 @@ public class hashset2 {
         cities.add("california");
         cities.add("Bengaluru");
 
-        Iterator it = cities.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
+        // Iterator it = cities.iterator();
+        // while (it.hasNext()) {
+        //     System.out.println(it.next());
+        // }
+
+        // for (String city : cities) {
+        //     System.out.println(city);
+        // }
+        System.out.println(cities);
+
+        //LINKED HASHSET
+        LinkedHashSet<String> lhs = new LinkedHashSet<>();
+        lhs.add("Hyderabad");
+        lhs.add("Delhi");
+        lhs.add("New york");
+        lhs.add("osaka");
+        lhs.add("tokyo");
+
+        System.out.println(lhs);
+
     }
 }
