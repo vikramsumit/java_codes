@@ -36,11 +36,9 @@ public class hashset2 {
         ts.add("Hong Kong");
         ts.add("paris");
         ts.add("sydney");
+        ts.add("Beijing");
         ts.add("canberra");
 
         System.out.println(ts);
-        
-        
-
     }
 }
