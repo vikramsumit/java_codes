@@ -1,6 +1,5 @@
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
+import java.util.*;
+
 
 public class hashset2 {
     public static void main(String[] args) {
@@ -28,8 +27,20 @@ public class hashset2 {
         lhs.add("New york");
         lhs.add("osaka");
         lhs.add("tokyo");
-
+        
         System.out.println(lhs);
+        
+        //TREESET
+        TreeSet<String> ts = new TreeSet<>();
+        ts.add("Moscow");
+        ts.add("Hong Kong");
+        ts.add("paris");
+        ts.add("sydney");
+        ts.add("canberra");
+
+        System.out.println(ts);
+        
+        
 
     }
 }
