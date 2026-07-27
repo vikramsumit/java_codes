@@ -117,3 +117,5 @@ public class binary {
         System.out.println();
     }
 }
+
+// Time Complexi
