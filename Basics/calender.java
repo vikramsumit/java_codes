@@ -1,4 +1,5 @@
 
+// Calendar month using switch
 import java.util.Scanner;
 
 public class calender {

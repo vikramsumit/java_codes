@@ -1,3 +1,4 @@
+// Constructor and getter practice
 import java.util.*;
 
 class meme {

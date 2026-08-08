@@ -1,3 +1,4 @@
+// String palindrome and shortest path
 public class palindrome {
     public static boolean isPalindrome(String str) {
         for(int i=0; i<str.length()/2; i++) {

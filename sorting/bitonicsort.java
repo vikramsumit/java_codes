@@ -1,3 +1,4 @@
+// Bitonic sort
 import java.util.Arrays;
 
 /**
@@ -66,4 +67,3 @@ public class bitonicsort {
         print("BitonicSort (ascending) on 8 elements", arr);
     }
 }
-

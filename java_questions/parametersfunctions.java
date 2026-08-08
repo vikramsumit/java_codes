@@ -1,3 +1,4 @@
+// Method parameters — sum of two numbers
 import java.util.*;
 
 public class parametersfunctions {

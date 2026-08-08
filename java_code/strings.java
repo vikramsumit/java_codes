@@ -1,3 +1,4 @@
+// String input and character traversal
 import java.util.*;
 
 public class strings {

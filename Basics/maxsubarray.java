@@ -1,3 +1,4 @@
+// Maximum subarray sum — brute force
 public class maxsubarray {
     public static void maxsubarraysum(int numbers[]){
         int currSum = 0;

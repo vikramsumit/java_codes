@@ -1,3 +1,4 @@
+// Half pyramids, Floyd's triangle, 0–1 triangle, and butterfly
 public class pattern2 {
     public static void halfpyramid(int n ){
         //outer

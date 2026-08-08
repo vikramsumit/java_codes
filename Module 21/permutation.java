@@ -1,3 +1,4 @@
+// String permutations with count
 public class permutation {
     public static void findPermutation(String str, String ans, int[] count) {
         // base case

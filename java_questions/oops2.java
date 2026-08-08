@@ -1,3 +1,4 @@
+// Inheritance — animal hierarchy
 public class oops2 {
     public static void main(String[] args) {
         // Fish whales = new Fish();

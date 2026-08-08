@@ -1,3 +1,4 @@
+// Multiplication table
 import java.util.Scanner;
 
 public class Table {

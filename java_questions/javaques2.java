@@ -1,3 +1,4 @@
+// Dollar-sign pattern
 public class javaques2 {
     public static void main(String[] args) {
         int n=13;

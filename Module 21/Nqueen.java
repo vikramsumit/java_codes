@@ -1,3 +1,4 @@
+// N-Queens with safe-placement checks
 public class Nqueen {
     public static boolean isSafe(char board[][], int row, int col) {
         // vertical up

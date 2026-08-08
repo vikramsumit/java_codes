@@ -1,3 +1,4 @@
+// Weighted graph adjacency-list representation
 import java.util.ArrayList;
 
 public class graph {

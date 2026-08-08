@@ -1,3 +1,4 @@
+// Lemonade Change — greedy simulation
 class Solution {
     public boolean lemonadeChange(int[] bills) {
         int fivedollarnote = 0;

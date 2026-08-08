@@ -1,3 +1,4 @@
+// Comb sort
 import java.util.Arrays;
 
 /**
@@ -52,4 +53,3 @@ public class combsort {
         print("CombSort", arr);
     }
 }
-

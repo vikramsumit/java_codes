@@ -1,3 +1,4 @@
+// Stack using Java Collections Framework
 import java.util.*;
 
 public class stack3 {

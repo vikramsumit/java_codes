@@ -1,3 +1,4 @@
+// Linear search — practice version
 public class arraycc3 {
     // Linear search method
     public static int linearSearch(int[] numbers, int key) {

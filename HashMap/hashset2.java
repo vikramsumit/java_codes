@@ -1,3 +1,4 @@
+// HashSet traversal and ordering variants
 import java.util.*;
 
 

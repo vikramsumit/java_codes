@@ -1,3 +1,4 @@
+// Java `HashMap` operations
 import java.util.*;
 
 public class hashmap {

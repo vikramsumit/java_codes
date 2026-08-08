@@ -1,3 +1,4 @@
+// Float and double values
 public class floatdouble {
     public static void main(String[] args) {
         float myFloat = 3.1455555555f;

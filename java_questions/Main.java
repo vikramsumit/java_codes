@@ -1,3 +1,4 @@
+// Number palindrome — class-based checker
 import java.util.Scanner;
 
 class PalindromeChecker {

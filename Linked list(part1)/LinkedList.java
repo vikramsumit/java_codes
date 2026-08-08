@@ -1,3 +1,4 @@
+// Singly linked list — add, remove, and search operations
 public class LinkedList {
     public static class Node {
         int data;

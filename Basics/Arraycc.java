@@ -1,3 +1,4 @@
+// Basic array declaration and traversal
 public class Arraycc {
 
     public static void main(String[] args) {

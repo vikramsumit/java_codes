@@ -1,3 +1,4 @@
+// Encapsulation with getters and setters
 import java.util.*;
 
 public class parameter1 {

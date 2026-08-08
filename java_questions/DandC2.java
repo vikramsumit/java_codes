@@ -1,3 +1,4 @@
+// Quick sort
 public class DandC2 {
     public static void printArr(int arr[]) {
         for (int i = 0; i < arr.length; i++) {

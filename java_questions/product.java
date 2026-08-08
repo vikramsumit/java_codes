@@ -1,3 +1,4 @@
+// Product of two numbers
 import java.util.*;
 
 public class product {

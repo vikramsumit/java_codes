@@ -1,3 +1,4 @@
+// Character-pattern exercise — variant
 public class javaques4 {
     public static void main(String[] args) {
         int n=6;

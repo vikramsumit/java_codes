@@ -1,3 +1,4 @@
+// Assignment / variable practice
 public class Assignment
 
 {

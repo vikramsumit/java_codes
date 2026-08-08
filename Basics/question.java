@@ -1,3 +1,4 @@
+// Sum of two input numbers
 import java.util.Scanner;
 
 public class question {

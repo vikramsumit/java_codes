@@ -1,3 +1,4 @@
+// Prime-number checker — OOP version
 import java.util.*;
 
 public class newprime {

@@ -1,3 +1,4 @@
+// Java Collections Framework `LinkedList`
 import java.util.LinkedList; // JCF optimized best time complexity
 
 public class jcflinkedlist {

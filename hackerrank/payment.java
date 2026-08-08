@@ -1,3 +1,4 @@
+// Payment / billing practice problem
 import java.util.Scanner;
 import java.text.NumberFormat;
 import java.util.Locale;
@@ -19,7 +20,6 @@ public class payment {
         System.out.println("France: " + france.format(payment));
     }
 }
-
 
 
 

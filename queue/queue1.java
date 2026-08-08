@@ -1,3 +1,4 @@
+// Queue using fixed array
 public class queue1 {
     static class Queue {
         static int arr[];

@@ -1,3 +1,4 @@
+// Input/divisibility practice
 import java.util.*;
 
 public class javabasics4 {

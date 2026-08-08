@@ -1,3 +1,4 @@
+// Input and divisibility loop practice
 import java.util.Scanner;
 
 public class javabasics4 {

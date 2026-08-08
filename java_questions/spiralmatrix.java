@@ -1,3 +1,4 @@
+// Spiral matrix traversal
 public class spiralmatrix {
     public static void printSpiral(int matrix[][]) {
         int startRow = 0;

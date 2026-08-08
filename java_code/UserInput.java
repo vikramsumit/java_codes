@@ -1,3 +1,4 @@
+// Odd/even check
 import java.util.*;
 
 public class UserInput 

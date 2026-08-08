@@ -1,3 +1,4 @@
+// Cocktail sort
 import java.util.Arrays;
 
 /**
@@ -49,4 +50,3 @@ public class cocktailsort {
         print("CocktailSort", arr);
     }
 }
-

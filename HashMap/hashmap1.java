@@ -1,3 +1,4 @@
+// Custom generic HashMap with rehashing
 import java.util.ArrayList;
 import java.util.LinkedList;
 

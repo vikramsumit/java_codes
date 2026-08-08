@@ -1,3 +1,4 @@
+// Insert, search, and delete
 public class bst2 {
     static class Node {
         int data;

@@ -1,3 +1,4 @@
+// Size, traversal, reverse, and maximum
 import java.util.ArrayList;
 
 public class count {

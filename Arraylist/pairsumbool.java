@@ -1,3 +1,4 @@
+// Pair Sum — boolean result
 import java.util.ArrayList;
 import java.util.Collections;
 

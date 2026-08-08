@@ -1,3 +1,4 @@
+// Merge sort — alternate implementation
 public class mergesort1 {
 
     // Main function to sort an array using Merge Sort

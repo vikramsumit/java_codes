@@ -1,3 +1,4 @@
+// Kadane's algorithm
 public class maxsubaraaysum {
     public static void kadanes(int numbers[]){
         int ms = Integer.MIN_VALUE;

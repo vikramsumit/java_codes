@@ -1,3 +1,4 @@
+// Character-pattern exercise
 public class javaques3 {
     public static void main(String[] args) {
         char ch = 'A';

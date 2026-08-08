@@ -1,3 +1,4 @@
+// Sum of input numbers
 import java.util.*;
 
 public class question {

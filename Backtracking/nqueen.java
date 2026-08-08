@@ -1,3 +1,4 @@
+// N-Queens — basic placement
 public class nqueen {
     public static void nQueens(char board[][], int row) {
         

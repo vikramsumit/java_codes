@@ -1,3 +1,4 @@
+// Prime-number checks and primes in range
 import java.util.*;
 
 public class prime {

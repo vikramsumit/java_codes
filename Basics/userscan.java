@@ -1,3 +1,4 @@
+// Scanner input
 import java.util.Scanner;
 
 public class userscan {

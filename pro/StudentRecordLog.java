@@ -1,3 +1,4 @@
+// Console student record log
 import java.util.ArrayList;
 import java.util.Scanner;
 
